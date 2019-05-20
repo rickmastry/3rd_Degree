@@ -7,7 +7,6 @@ let x;
 
 function init() {
    
-
   // Get a reference to the container element that will hold our scene
   container = document.querySelector( '#scene-container' );
 
@@ -81,30 +80,35 @@ function init() {
 
   // start the animation loop
   renderer.setAnimationLoop( () => {
-
     update();
     render();
-   
 
   } );
 
+  x = document.getElementById("myaudio"); 
   playAudio();
-
 
 }
 
-x = document.getElementById("myaudio"); 
-
 function playAudio() { 
-    x.play(); 
+   let playPromise = x.play(); 
+    if (playPromise !== undefined) {
+        playPromise.then(_ => {
+          // Automatic playback started!
+          // Show playing UI.
+        })
+        .catch(error => {
+          // Auto-play was prevented
+          // Show paused UI.
+        });
   } 
+  
+}
 
 function animate() {
 
   // call animate recursively
   requestAnimationFrame( animate );
-
- 
 
 }
 
@@ -150,4 +154,6 @@ init();
 
 // then call the animate function to render the scene
 animate();
+
+playAudio();
 
