@@ -3,8 +3,10 @@ let camera;
 let renderer;
 let scene;
 let mesh;
+let x;
 
 function init() {
+   
 
   // Get a reference to the container element that will hold our scene
   container = document.querySelector( '#scene-container' );
@@ -82,11 +84,20 @@ function init() {
 
     update();
     render();
+   
 
   } );
 
+  playAudio();
+
 
 }
+
+x = document.getElementById("myaudio"); 
+
+function playAudio() { 
+    x.play(); 
+  } 
 
 function animate() {
 
@@ -139,3 +150,4 @@ init();
 
 // then call the animate function to render the scene
 animate();
+
