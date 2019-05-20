@@ -117,7 +117,7 @@ body {
 
 }
 
-@media only screen and (max-width: 667px) and (orientation : landscape){
+@media only screen and (max-width: 668px) and (orientation : landscape){
     #scene-container {
         width: 600px;
         height: 300px;
