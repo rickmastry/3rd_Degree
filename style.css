@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color:white;;
+    text-align: center;
+    background-color:black;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;;
+    text-align: center;
+    margin-top:2rem;
+  }
+
+  .sub-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;;
+    text-align: center;
+    
+  }
+  
+  
+  #scene-container {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-top:13rem;
+  }
+
+  h1.zoomIn{
+    width:100%;
+    position:absolute;
+    color:#C0C0C0;
+    font-size: 3rem;
+    margin-top: 4rem;
+    font-weight: bold;
+    letter-spacing: 10px;
+    animation-duration: 9s;
+    animation-iteration-count: 1;
+    margin-left:auto;
+    margin-right:auto;
+    z-index:2;
+}
+
+ h2.zoomIn{
+    width:100%;
+    position:absolute;
+    text-transform: uppercase;
+    color:#C0C0C0;
+    font-size: 2rem;
+    margin-top: 40rem;
+    font-weight: bold;
+    letter-spacing: 50px;
+    animation-duration: 9s;
+    animation-iteration-count: 1;
+    z-index:2;
+  
+}
+
+@media only screen and (max-width: 768px) and (orientation : portrait) {
+
+    #scene-container {
+        width: 400px;
+        height: 200px;
+        margin-top: 10rem;
+    }
+
+
+    h1.zoomIn{
+        font-size: 1.5rem;
+        letter-spacing: 12px;
+      
+    }
+
+    h2.zoomIn{
+        font-size: 1.5rem;
+        letter-spacing:10px;
+        margin-top:30rem;
+        
+    }
+}
+
+@media only screen and (max-width: 748px) and (orientation : landscape) {
+
+    #scene-container {
+        width: 500px;
+        height: 300px;
+        margin-top: 3rem;
+      
+    }
+ 
+    h1.zoomIn{
+        font-size:1.75rem;
+        margin-top:1rem;
+        letter-spacing: 10px;
+    }
+
+    h2.zoomIn{
+        font-size: 1.5rem;
+        letter-spacing:20px;
+        margin-top:22rem;
+     
+    }
+
+    .title{
+        margin-top:2rem;
+    }
+
+}
+
+@media only screen and (max-width: 667px) and (orientation : landscape){
+    #scene-container {
+        width: 600px;
+        height: 300px;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    h1.zoomIn{
+        margin-top:1rem;
+        font-size: 1.5rem;
+      
+    }
+
+    h2.zoomIn{
+        font-size: 1rem;
+        letter-spacing:14px;
+        margin-top:19rem;
+        
+        
+    }
+
+}
+
+@media only screen and (max-width: 380px) and (orientation : portrait){
+    #scene-container {
+        position: absolute;
+        width: 360px;
+        height: 180px;
+        text-align: center;
+        margin-top: 10rem;
+    }
+    h1.zoomIn{
+        font-size: 1.5rem;
+      
+    }
+
+    h2.zoomIn{
+        font-size: 1rem;
+        letter-spacing:10px;
+        margin-top:30rem;
+        
+        
+    }
+
+}
