@@ -572,10 +572,12 @@ footer{
 
 @media only screen and (max-width: 668px) and (orientation : landscape){
     #scene-container {
+        left:30px;
         width: 600px;
         height: 300px;
         text-align: center;
         margin-top: 2rem;
+        bottom:170px;
     }
     h1.zoomIn{
         margin-top:1rem;
@@ -587,19 +589,42 @@ footer{
         font-size: 1rem;
         letter-spacing:14px;
         margin-top:19rem;
-        
-        
     }
+
+    .link{
+        position:absolute;
+        width: 150px;  
+        padding:20px;
+        font-size: 1.5rem;
+        margin-top: 275px;
+        cursor: pointer;
+        color:white;
+        background-color:black;
+        border: 2px solid grey;
+        transition: var(--mainTransition);
+        opacity:0.7;
+       
+      }
+    
+      .link:hover{
+         
+          width:175px;
+          padding:30px;
+          background-color: white;
+          transition: var(--mainTransition);
+      }
 
 }
 
 @media only screen and (max-width: 380px) and (orientation : portrait){
     #scene-container {
+        left:0;
         position: absolute;
         width: 360px;
         height: 180px;
         text-align: center;
         margin-top: 10rem;
+        bottom:400px;
     }
     h1.zoomIn{
         font-size: 1.5rem;
