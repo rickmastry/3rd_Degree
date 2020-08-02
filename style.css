@@ -33,6 +33,10 @@ body {
     background-color:black;
   }
 
+canvas{
+    margin:auto;
+}
+
   .navbar {
     position: sticky;
     top: 0;
@@ -631,7 +635,7 @@ footer{
         height: 180px;
         text-align: center;
         margin-top: 10rem;
-        bottom:500px;
+        bottom:400px;
     }
 
     .link{
