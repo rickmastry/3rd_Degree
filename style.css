@@ -1,7 +1,7 @@
 
 @font-face{
     font-family: "Broadway Regular";
-    src: url('../fonts/Broadway Regular.ttf') Format('truetype');
+    src: url('./fonts/Broadway Regular.ttf') Format('truetype');
   }
 
 :root {
