@@ -389,6 +389,32 @@ footer{
    a.icons:hover{
     color: var(--mainGold);
    }
+   @media only screen and (max-width: 848px) and (orientation : landscape){
+    h1.zoomIn{
+        margin-top:1rem;
+        font-size: 1.5rem;
+        letter-spacing: 12px;
+      
+    }
+    #scene-container {
+        left:250px;
+        width: 300px;
+        height: 200px;
+        bottom: 320px
+    }
+
+    .link{
+        position:absolute;
+        margin-top: 250px;
+        opacity:0.7;
+    }
+
+    canvas{
+        width:300px;
+        height:200px;
+    }
+        
+   }
 
 @media only screen and (max-width: 768px) and (orientation : portrait) {
 
@@ -567,7 +593,7 @@ footer{
         width: 500px;
         height: 300px;
         margin-top: 3rem;
-        bottom:200px
+        bottom:250px
       
     }
  
@@ -629,13 +655,13 @@ footer{
 
 @media only screen and (max-width: 480px) and (orientation : portrait){
     #scene-container {
-        left:0;
+        left:20px;
         position: absolute;
         width: 360px;
         height: 180px;
         text-align: center;
         margin-top: 10rem;
-        bottom:400px;
+        bottom:500px;
     }
 
     .link{
@@ -661,8 +687,8 @@ footer{
         width: 360px;
         height: 180px;
         text-align: center;
-        margin-top: 10rem;
-        bottom:400px;
+        margin-top:0;
+        bottom:550px;
     }
     h1.zoomIn{
         font-size: 1.5rem;
