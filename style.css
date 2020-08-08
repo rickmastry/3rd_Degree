@@ -59,6 +59,7 @@ canvas{
 }  
 .nav-icons {
     font-size: 1.5rem;
+
 }
 
 .nav-icon {
@@ -418,6 +419,10 @@ footer{
 
 @media only screen and (max-width: 768px) and (orientation : portrait) {
 
+  .banner {
+    font-size: 2.4rem;
+  }
+
     #scene-container {
         left:40px;
         width: 400px;
@@ -529,7 +534,7 @@ footer{
          
          
           .nav-icon {
-           
+            margin-right: 20px;
             display:block !important;
             font-size: 1.5rem;
             cursor:pointer;
