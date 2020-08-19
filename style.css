@@ -594,11 +594,11 @@ footer{
     }  
 
     #scene-container {
-        left:105px;
+        left:0px;
         width: 200px;
         height: 100px;
         margin-top: 3rem;
-        bottom:480px
+        bottom:400px
       
     }
  
