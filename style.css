@@ -624,8 +624,8 @@ footer{
 @media only screen and (max-width: 668px) and (orientation : landscape){
     #scene-container {
         left:30px;
-        width: 600px;
-        height: 300px;
+        width: 200px;
+        height: 100px;
         text-align: center;
         margin-top: 2rem;
         bottom:170px;
@@ -662,8 +662,8 @@ footer{
     #scene-container {
         left:20px;
         position: absolute;
-        width: 360px;
-        height: 180px;
+        width: 200px;
+        height: 100px;
         text-align: center;
         margin-top: 10rem;
         bottom:500px;
