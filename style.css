@@ -172,18 +172,18 @@ canvas{
   
   
   #scene-container {
-    right:400px;
+    right:480px;
     position: absolute;
     width: 600px;
     height: 400px;
-    bottom: 250px;
+    bottom: 350px;
   }
 
   .link{
     width: 150px;  
     padding:20px;
     font-size: 1.5rem;
-    margin-top: 500px;
+    margin-top: 600px;
     cursor: pointer;
     color:white;
     background-color:black;
