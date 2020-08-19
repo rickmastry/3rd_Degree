@@ -623,12 +623,12 @@ footer{
 
 @media only screen and (max-width: 668px) and (orientation : landscape){
     #scene-container {
-        left:30px;
+        left:235px;
         width: 200px;
         height: 100px;
         text-align: center;
         margin-top: 2rem;
-        bottom:170px;
+        bottom:370px;
     }
     h1.zoomIn{
         margin-top:1rem;
